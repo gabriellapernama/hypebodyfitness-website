@@ -1,11 +1,10 @@
 import React from "react"
-import {Link} from 'gatsby';
-
+import NavBar from '../components/navigationBar.js';
 
 export default () => {
 
 return <div>
-    <div><Link to="/aboutMe/">About Me</Link></div>
+    <div><NavBar /></div>
     Welcome to HypeBodyFitness! 
     <div></div>
     </div>
