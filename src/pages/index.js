@@ -1,10 +1,11 @@
 import React from "react"
-import NavBar from '../components/navigationBar.js';
-import Welcome from '../components/welcome.js';
+// import NavBar from '../components/navigationBar.js';
 import AboutMe from '../components/aboutMe.js';
 import Testimonials from '../components/testimonials.js';
 import ServicesOffered from '../components/servicesOffered.js';
 import Contact from '../components/contact.js';
+import styles from '../styles/index.module.css';
+import FrontPage from '../images/front-page.jpg';
 
 export default () => {
   if (typeof window !== "undefined") {
@@ -16,15 +17,22 @@ export default () => {
   }
 
 
-return <div>
-    <div><NavBar /></div>
-    <div>
-        <Welcome />
-        <AboutMe id="aboutMe" />
-        <Testimonials id="testimonials" />
-        <ServicesOffered id="servicesOffered" />
-        <Contact id="contact" />
+return <div >
+  <div className={styles.container}>
+    <img alt="front-page" src={FrontPage} className={styles.frontImg} />
+    <div className={styles.welcomeText}>
+      <div className={styles.logo}>HypeBody Fitness: </div>
+      <div className={styles.subLogo}>Personal Training</div>
     </div>
+  </div>
+    <div className={styles.parent}>
+            <AboutMe id="aboutMe" />
+            <Testimonials id="testimonials" />
+            <ServicesOffered id="servicesOffered" />
+            <Contact id="contact" />            
     </div>
+
+    
+  </div>
 
 }
