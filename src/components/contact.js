@@ -1,7 +1,7 @@
 import React from 'react';
 
-export default () => {
-    return <div>
+export default (props) => {
+    return <div id={props.id}>
        Send me an email down below: 
 
     </div>
