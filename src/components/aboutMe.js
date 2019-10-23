@@ -9,7 +9,7 @@ export default (props) => {
         <div className={styles.aboutMeContent}>
             <div className={styles.julianName} >julian nola</div>
             <div className={styles.aboutMeSubContent}>
-                I’ve always been the fat guy! As in 30% body fat and above fat guy! I spent several years in the gym, did Crossfit, starved myself, and just about every other fad diet in the market just to NEVER see the results I wanted!
+                <div className={styles.align}>I’ve always been the fat guy! As in 30% body fat and above fat guy! I spent several years in the gym, did Crossfit, starved myself, and just about every other fad diet in the market just to NEVER see the results I wanted!</div>
                 <img className={styles.julianPhoto} alt="JulianProgress" src={JulianBeforeAndAfter}/>
             </div>
             <div className={styles.aboutMeSubContent}>

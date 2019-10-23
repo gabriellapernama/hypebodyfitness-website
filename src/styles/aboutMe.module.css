@@ -5,6 +5,7 @@
 .julianName{
     font-size: 2vw;
     text-align: center;
+    padding-bottom: 2vh;
 }
 
 .header1{
@@ -22,11 +23,16 @@
 .aboutMeSubContent{
     display: flex;
     justify-content: space-between;
+    margin: 0 10%
+}
+
+.align{
+    text-align: right;
 }
 
 .lastBit{
     text-align: center;
-    font-size: 1.5vw;
+    font-size: 1.70vw;
 }
 
 .julianPhoto{
@@ -35,5 +41,5 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding: 0 5%;
+    padding: 0 5% 5%;
 }
