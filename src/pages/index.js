@@ -1,5 +1,5 @@
 import React from "react"
-// import NavBar from '../components/navigationBar.js';
+import NavBar from '../components/navigationBar.js';
 import AboutMe from '../components/aboutMe.js';
 import Testimonials from '../components/testimonials.js';
 import ServicesOffered from '../components/servicesOffered.js';
@@ -16,23 +16,23 @@ export default () => {
     })
   }
 
-
-return <div >
-  <div className={styles.container}>
+return <div className={styles.bigContainer}>
+  
+  <div className={styles.welcomeContainer}>
     <img alt="front-page" src={FrontPage} className={styles.frontImg} />
-    <div className={styles.welcomeText}>
-      <div className={styles.logo}>HypeBody Fitness: </div>
-      <div className={styles.subLogo}>Personal Training</div>
+    <div className={styles.welcomeTextContainer}>
+        <div className={styles.logo}>HYPEBODY&nbsp;FITNESS: </div>
+        <div className={styles.subLogo}>Personal Training</div>
     </div>
   </div>
-    <div className={styles.parent}>
-            <AboutMe id="aboutMe" />
-            <Testimonials id="testimonials" />
-            <ServicesOffered id="servicesOffered" />
-            <Contact id="contact" />            
-    </div>
-
-    
+    <div className={styles.sticky}><NavBar /></div>
+  
+  <div >
+            <div id="aboutMe"><AboutMe /></div>
+            <div className={styles.content}><Testimonials id="testimonials" /></div>
+            <div className={styles.content}><ServicesOffered id="servicesOffered" /></div>
+            <div className={styles.content}><Contact id="contact" /> </div>  
+  </div> 
   </div>
 
 }
