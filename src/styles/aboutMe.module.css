@@ -1,0 +1,39 @@
+.aboutMeContainer{
+    margin: 5% 10%;
+}
+
+.julianName{
+    font-size: 2vw;
+    text-align: center;
+}
+
+.header1{
+    padding: 0 0 5% 0;
+    font-size: 3vw;
+    font-weight: 400;
+
+}
+
+.aboutMeContent{
+    display: grid; 
+    /* flex-direction: column; */
+}
+
+.aboutMeSubContent{
+    display: flex;
+    justify-content: space-between;
+}
+
+.lastBit{
+    text-align: center;
+    font-size: 1.5vw;
+}
+
+.julianPhoto{
+    width: 25%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 5%;
+}
