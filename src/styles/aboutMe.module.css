@@ -24,7 +24,7 @@
 .aboutMeContent{
     display: grid; 
     background-color: #F4F4F4;
-    padding: 30px;
+    padding: 1.5em;
     border-radius: 10px;
 }
 
@@ -35,7 +35,7 @@
 }
 
 .alignRight{
-    font-size: 15px;
+    font-size: 1em;
 }
 
 .lastBit{
@@ -57,13 +57,19 @@
 
 .blurb{
     composes: julianName;
-    font-size: 1.4vw;
+    font-size: 1.2em;
+    color: #5a5a5a;
+    background-color: #f4f4f4;
+    padding:1.5em;
+    border-radius: 10px;
 }
 
 .header2{
     composes: julianName;
     text-align: left;
     font-size: 1.2vw;
+    /* padding: 1.3em; */
+    margin: 5% 0 0;
 }
 
 .servicesOfferedList{
@@ -71,4 +77,5 @@
     grid-template-columns: 60% 60%;
     grid-template-rows: 80% 80% 80%;
     margin: 0 15% 30%;  
+    padding: 1em;
 }
