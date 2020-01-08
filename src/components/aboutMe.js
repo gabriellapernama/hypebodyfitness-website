@@ -17,7 +17,7 @@ export default (props) => {
             </div>
             
         </div>
-        <br/><div className={styles.lastBit}>My life is a personal testimony of weight loss, strength training, and fitness, let’s make your life one too!</div><br />
+        <br/><div className={styles.lastBit}>My life is a personal testimony of weight loss, strength training, and fitness. Let’s make your life one too!</div><br />
 
     </div>
 }
