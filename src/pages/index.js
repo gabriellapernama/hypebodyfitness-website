@@ -21,7 +21,7 @@ return <div className={styles.bigContainer}>
   <div className={styles.welcomeContainer}>
     <img alt="front-page" src={FrontPage} className={styles.frontImg} />
     <div className={styles.welcomeTextContainer}>
-        <div className={styles.logo}>HYPEBODY&nbsp;FITNESS: </div>
+        <div className={styles.logo}>HYPEBODY&nbsp;FITNESS </div>
         <div className={styles.subLogo}>Personal Training</div>
     </div>
   </div>
@@ -31,7 +31,7 @@ return <div className={styles.bigContainer}>
             <div id="aboutMe"><AboutMe /></div>
             <div className={styles.content}><Testimonials id="testimonials" /></div>
             <div className={styles.content}><ServicesOffered id="servicesOffered" /></div>
-            <div className={styles.content}><Contact id="contact" /> </div>  
+            <div><Contact id="contact" /> </div>  
   </div> 
   </div>
 
