@@ -1,0 +1,91 @@
+.container{
+    display: block;
+    margin: 10%;
+    margin-bottom: 20%;
+
+}
+
+.inquiryForm{
+    font-size: 2em;
+    text-align: center;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: auto;
+  /* Form outline */
+    padding: 4em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+}
+
+.form div + div{
+    margin-top: 1em;
+}
+
+.label{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+label{
+    padding-bottom: 8px;
+    font: 14px sans-serif;
+}
+
+.eachInput{
+    width: 70%;
+    box-sizing: border-box;
+    height: auto;
+    border: solid;
+    border-width: thin;
+    border-color: #d6d6d4;
+    border-radius: 5px;
+    padding: 10px;
+    font: 13px sans-serif;
+    
+}
+
+.textArea{
+    composes: eachInput;
+    max-width: 90%;
+    max-height: 50vh;
+}
+
+.nameBox{
+    composes: eachInput;
+    width: 47%;
+}
+
+.firstName{
+    composes: nameBox;
+    margin-right: 20px;
+}
+
+input:focus, textarea:focus{
+    background-color: white;
+}
+
+input, textarea{
+    background-color: #fafafa
+}
+
+textarea{
+    vertical-align: top;
+    height: 5em;
+}
+
+.submitButton{
+    margin: 10% 50% 0;
+}
+
+.actualButton{
+    border: solid;
+    border-width: thin;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+}

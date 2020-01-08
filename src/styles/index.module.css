@@ -44,5 +44,9 @@
 }
 
 .content{
-    margin:0;
+    margin: 20% 0;
+}
+
+#contact{
+    margin-bottom: 20%; 
 }

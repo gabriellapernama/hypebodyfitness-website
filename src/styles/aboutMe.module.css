@@ -8,6 +8,10 @@
     padding-bottom: 2vh;
 }
 
+.juliansBlurb{
+    padding: 5% 0;
+}
+
 .header1{
     padding: 0 0 5% 0;
     font-size: 3vw;
@@ -17,22 +21,25 @@
 
 .aboutMeContent{
     display: grid; 
-    /* flex-direction: column; */
+    background-color: #F4F4F4;
+    padding: 30px;
+    border-radius: 10px;
 }
 
 .aboutMeSubContent{
     display: flex;
     justify-content: space-between;
-    margin: 0 10%
+    color: #5a5a5a;
 }
 
-.align{
-    text-align: right;
+.alignRight{
+    font-size: 15px;
 }
 
 .lastBit{
     text-align: center;
     font-size: 1.70vw;
+    padding-top: 5%; 
 }
 
 .julianPhoto{
@@ -41,5 +48,24 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding: 0 5% 5%;
+    padding: 0 5% 2%;
+
+}
+
+.blurb{
+    composes: julianName;
+    font-size: 1.4vw;
+}
+
+.header2{
+    composes: julianName;
+    text-align: left;
+    font-size: 1.2vw;
+}
+
+.servicesOfferedList{
+    display: grid;
+    grid-template-columns: 60% 60%;
+    grid-template-rows: 80% 80% 80%;
+    margin: 0 15% 30%;  
 }
