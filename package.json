@@ -15,7 +15,7 @@
   "dependencies": {
     "gatsby": "^2.13.73",
     "react": "^16.9.0",
-    "react-dom": "^16.9.0",
+    "react-dom": "^16.11.0",
     "smooth-scroll": "^16.1.0"
   },
   "devDependencies": {
